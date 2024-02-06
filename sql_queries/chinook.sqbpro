@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/CodeAcademy/databases/chinook.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3909"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:maintracks"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="albums" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="70"/><column index="2" value="300"/><column index="3" value="68"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="artists" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="68"/><column index="2" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="92"/><column index="2" value="80"/><column index="3" value="83"/><column index="4" value="294"/><column index="5" value="264"/><column index="6" value="132"/><column index="7" value="53"/><column index="8" value="96"/><column index="9" value="89"/><column index="10" value="128"/><column index="11" value="122"/><column index="12" value="183"/><column index="13" value="107"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="91"/><column index="2" value="80"/><column index="3" value="80"/><column index="4" value="124"/><column index="5" value="84"/><column index="6" value="129"/><column index="7" value="129"/><column index="8" value="178"/><column index="9" value="67"/><column index="10" value="53"/><column index="11" value="69"/><column index="12" value="89"/><column index="13" value="115"/><column index="14" value="115"/><column index="15" value="168"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="genres" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="68"/><column index="2" value="112"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="invoice_items" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="103"/><column index="2" value="77"/><column index="3" value="65"/><column index="4" value="74"/><column index="5" value="73"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="invoices" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="77"/><column index="2" value="92"/><column index="3" value="129"/><column index="4" value="264"/><column index="5" value="132"/><column index="6" value="89"/><column index="7" value="105"/><column index="8" value="125"/><column index="9" value="49"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="media_types" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="99"/><column index="2" value="164"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="playlist_track" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="76"/><column index="2" value="65"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="playlists" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="76"/><column index="2" value="155"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="sqlite_sequence" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="84"/><column index="2" value="40"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="tracks" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="7" mode="0"/></sort><column_widths><column index="1" value="65"/><column index="2" value="300"/><column index="3" value="70"/><column index="4" value="99"/><column index="5" value="68"/><column index="6" value="300"/><column index="7" value="93"/><column index="8" value="63"/><column index="9" value="74"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">-- 1. How many hours of songs exist in the application?
+-- select sum(Milliseconds) / 3600000 from tracks;
+
+-- 2. Get top 5 countries with most customers in descenging order.
+-- select Country, count(*) as &quot;Customer count&quot; from customers group by 1 order by 2 desc limit 5 ;
+
+-- 3. which customer email domain is the most popular? give counts of top 3.
+-- select substr(Email, instr(Email, '@') + 1) as &quot;Domain&quot;, count(*) as &quot;Count&quot; from customers group by 1 order by 2 desc limit 3;
+
+-- 4. Which artist has most songs in the application
+-- select Composer, count(*) as &quot;Track count&quot; from tracks where Composer is not null group by 1 order by 2 desc limit 1;
+
+-- 5. How many songs are in the playlist on average?
+-- select count(TrackId) / count(distinct(PlaylistId)) from playlist_track;
+
+-- 6.Which country generates most revenue give top 5
+-- select BillingCountry, sum(Total) from invoices group by 1 order by 2 desc limit 5;
+
+-- 7.Which customer generated most revenue, give top 5
+-- select  FirstName || &quot; &quot; || LastName as &quot;Fullname&quot;, sum(a.Total) as &quot;Revenue&quot; from invoices a left join customers b on a.CustomerId = b.CustomerId group by a.CustomerId order by 2 desc limit 5;
+
+-- 8.with each and every artist count how many songs they made in each genre
+SELECT Composer, COUNT(*) FROM (
+
+SELECT 
+    Composer,
+	b.Name,
+	COUNT(TrackId) AS 'Song made'
+FROM
+    tracks a
+        LEFT JOIN
+    genres b ON a.GenreId = b.GenreId
+WHERE
+    Composer IS NOT NULL
+GROUP BY 1 , 2
+ORDER BY 3 DESC)
+group by 1
+HAVING COUNT(*) &gt; 1
+ORDER BY 2 DESC;
+
+
+Select b.Name FROM tracks a LEFT JOIN  genres b ON a.GenreId = b.GenreId where a.Composer = &quot;Steve Harris&quot; group by 1;</sql><current_tab id="0"/></tab_sql></sqlb_project>

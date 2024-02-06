@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/CodeAcademy/databases/person.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="970"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainperson"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">
+select PAREIGOS, count(*) from DARBUOTOJAI group by PAREIGOS having count(*) &gt;= 5;
+
+
+insert into DARBUOTOJAI values(&quot;Albert&quot;, &quot;Naimovic&quot;, &quot;1997-10-09&quot;, &quot;Bedarbis&quot;, &quot;Gamybos&quot;);
+
+insert into DARBUOTOJAI (VARDAS, GIMIMO_DATA, PAREIGOS) values(&quot;Jonas&quot;, &quot;1997-01-10&quot;, &quot;Bedarbis&quot;);
+update DARBUOTOJAI set PAVARDĖ = &quot;Jonaitis&quot;, SKYRIUS_PAVADINIMAS = &quot;Gamybos&quot; where VARDAS = &quot;Jonas&quot;;
+
+
+select * from person;
+
+select distinct first_name from person;
+
+select distinct last_name from person;
+
+select company, count(*) from person group by 1;
+
+select * from person where substr(date_of_birth, 1, 4) BETWEEN '1970' and '1990' order by date_of_birth;
+
+select count(email) from person where email like '%.com';
+
+select sum(gender = &quot;Male&quot;) as 'Male', sum(gender = &quot;Female&quot;) as 'Female' from person;
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
